@@ -72,12 +72,13 @@ Write an SQL query to calculate the total PaymentAmount for each customer. Displ
 ## 7. Transactions for Adding a Payment
 Write an SQL query to perform the following operations as a transaction:
 
-Deduct the payment amount (e.g., 200.00) from the TotalAmount in the bills table for BillID = 2.
-Insert a new payment record into the payments table with:
-- PaymentDate: Current date
-- PaymentAmount: 200.00
-- PaymentMethod: 'Credit Card'
-- BillID: 2
+i. Deduct the payment amount (e.g., 200.00) from the TotalAmount in the bills table for BillID = 2.
+
+ii.  Insert a new payment record into the payments table with:
+   - PaymentDate: Current date
+   - PaymentAmount: 200.00
+   - PaymentMethod: 'Credit Card'
+   - BillID: 2
 Commit the transaction only if both steps succeed.
 
 ## 8. Identify Overdue Bills
