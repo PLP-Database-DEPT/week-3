@@ -66,10 +66,7 @@ Write an SQL query to delete all rows from the bills table where the Status is '
 ## 5. Retrieve Customer and Their Bills
 Write an SQL query to retrieve the customerName, email, and all associated BillID, BillDate, TotalAmount, and Status for each customer. Ensure customers without bills are also included.
 
-## 6. Summarize Payments by Customer
-Write an SQL query to calculate the total PaymentAmount for each customer. Display the customerName, email, and the total PaymentAmount.
-
-## 7. Transactions for Adding a Payment
+## 6. Transactions for Adding a Payment
 Write an SQL query to perform the following operations as a transaction:
 
 i. Deduct the payment amount (e.g., 200.00) from the TotalAmount in the bills table for BillID = 2.
@@ -81,16 +78,8 @@ ii.  Insert a new payment record into the payments table with:
    - BillID: 2
 Commit the transaction only if both steps succeed.
 
-## 8. Identify Overdue Bills
-Write an SQL query to retrieve all bills where the Status is not 'Paid' and the DueDate is earlier than the current date. Show the BillID, customerName, TotalAmount, and DueDate.
 
-## 9. Top Categories by Revenue
-Write an SQL query to calculate the total revenue (LineTotal) for each category of items sold. Display the CategoryID, name, and the total revenue in descending order.
-
-## 10. Most Active Customers
-Write an SQL query to retrieve the top 5 customers who have made the highest number of payments. Show the customerName, email, and the total number of payments made by each.
-
-## 11. Transactions for Updating Bill Status
+## 7. Transactions for Updating Bill Status
 Write an SQL query to perform the following operations as a transaction:
 
 Update the Status of the bill with BillID = 3 to 'Paid'.
