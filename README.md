@@ -35,9 +35,9 @@ After completing all queries, push your answers.sql file to GitHub and submit it
 Write an SQL query to insert a new customer into the customer table with the following details:
 
 - customerName: 'Alice Johnson'
--nemail: 'alice.johnson@example.com'
--nphoneNumber: '+11234567890'
--ncustomerAddress: '789 Maple Ave, Boston'
+- email: 'alice.johnson@example.com'
+- phoneNumber: '+11234567890'
+- customerAddress: '789 Maple Ave, Boston'
 Set the dateCreated to the current timestamp.
 ## 2. Insert a Bill and Associated Items
 Write an SQL query to insert a bill into the bills table for the customer with id = 1. Use the following details:
