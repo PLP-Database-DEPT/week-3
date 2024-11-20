@@ -1,4 +1,4 @@
-# SQL Assignment Week 2: Customer Bill Management Queries
+# SQL Assignment Week 3:
 
 ## Learning Objectives
 - Understand and practice SQL syntax for data manipulation and retrieval.
