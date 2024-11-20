@@ -14,7 +14,7 @@
 - A code editor (e.g., Visual Studio Code).
 - MySQL Workbench or another SQL database environment.
 
----
+
 
 ## Scenario
 You are tasked with retrieving and managing data from a Bill Management System's database. The system tracks customer bills, including their status, due dates, and amounts. It also handles payments and categorizes the bills according to different categories (e.g., electronics, furniture). This assignment will help you practice SQL queries related to data retrieval, filtering, transactions, and aggregations.
@@ -30,7 +30,9 @@ You are tasked with retrieving and managing data from a Bill Management System's
    -- Question 1.1
    SELECT * FROM orders;
 After completing all queries, push your answers.sql file to GitHub and submit it for review.
+
 # Assignment Questions
+
 ## 1. Insert a New Customer
 Write an SQL query to insert a new customer into the customer table with the following details:
 
@@ -39,14 +41,17 @@ Write an SQL query to insert a new customer into the customer table with the fol
 - phoneNumber: '+11234567890'
 - customerAddress: '789 Maple Ave, Boston'
 Set the dateCreated to the current timestamp.
+
 ## 2. Insert a Bill and Associated Items
-Write an SQL query to insert a bill into the bills table for the customer with id = 1. Use the following details:
+Write an SQL query to insert a bill into the bills table for the customer with id = 1.
+Use the following details:
 
 - BillDate: '2024-11-15'
 - DueDate: '2024-12-01'
 - TotalAmount: 200.00
 - Status: 'Pending'
 - Assign a CategoryID of your choice.
+  
 Then, insert two associated records into the bill_items table with the following details:
 
 - ItemDescription: 'Laptop', Quantity: 1, UnitPrice: 150.00, LineTotal: 150.00
