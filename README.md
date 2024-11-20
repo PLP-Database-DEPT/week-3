@@ -5,7 +5,7 @@
 - Perform CRUD (Create, Read, Update, Delete) operations on a database.
 - Write queries with conditions, sorting, and aggregations to extract meaningful insights.
 - Implement SQL transactions to ensure data integrity when performing multiple operations.
-- Use joins and groupings to analyze related data from multiple tables.
+
 
 ---
 
@@ -40,6 +40,7 @@ Write an SQL query to insert a new customer into the customer table with the fol
 - email: 'alice.johnson@example.com'
 - phoneNumber: '+11234567890'
 - customerAddress: '789 Maple Ave, Boston'
+  
 Set the dateCreated to the current timestamp.
 
 ## 2. Insert a Bill and Associated Items
